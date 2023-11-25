@@ -20,5 +20,5 @@ from app1.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Static_page/',Static_File,name='Static_File') 
+    path('Static_File/',Static_File,name='Static_File'),
 ]
